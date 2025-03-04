@@ -25,9 +25,10 @@ const ContactArea = () => {
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
                             <h4>
-                                70 Washington Square <br />
+                                {/* 70 Washington Square <br />
                                 South New York, NY 10012, <br />
-                                 United States
+                                 United States */}
+                                 8 KM. Mile Stone, Jhajjar-Kosli Road, Fatehpuri , Jhajjar Delhi-NCR (Haryana)
                             </h4>
                         </div>
                     </div>
@@ -42,10 +43,10 @@ const ContactArea = () => {
                             <div className="image">
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
-                            <h4>
-                                <a href="mailto:supportedus@gmail.com">supportedus@gmail.com</a> <br />
-                                <a href="mailto:www.eduspace.com">www.eduspace.com</a>
-                            </h4>
+                            <p style={{fontWeight: "bold", fontSize: "21px", color: "black", margin: "10px 0" }}>
+                                <a href="contact@cbs-nursing.com">contact@cbs-nursing.com</a> <br />
+                                {/* <a href="mailto:www.eduspace.com">www.eduspace.com</a> */}
+                                </p>   
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
@@ -60,8 +61,8 @@ const ContactArea = () => {
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
                             <h4>
-                                <a href="tel:++00012345688">+000 123 456 88</a> <br />
-                                <a href="tel:+4325688899">+432 568 88 99</a>
+                                <a href="tel:+91-8053111333"> +91-8053111333</a> <br />
+                                <a href="tel:+91-8053111444">+91-8053111444</a>
                             </h4>
                         </div>
                     </div>

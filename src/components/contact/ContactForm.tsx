@@ -10,7 +10,7 @@ const ContactForm = () => {
                     <div className="col-xl-10">
                         <div className="contact-form-items">
                             <div className="title text-center">
-                                <h2 className="wow fadeInUp">Send Us Message</h2>
+                                <h2 className="wow fadeInUp">Contact Us Today</h2>
                             </div>
                             <form id="contact-form" onSubmit={e => e.preventDefault()}>
                                 <div className="row g-4">
@@ -41,7 +41,7 @@ const ContactForm = () => {
                                     </div>
                                     <div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
                                         <button type="submit" className="theme-btn">
-                                            Send Us Message
+                                            Contact Us
                                         </button>
                                     </div>
                                 </div>
