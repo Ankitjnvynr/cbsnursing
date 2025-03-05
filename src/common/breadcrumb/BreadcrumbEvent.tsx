@@ -24,16 +24,16 @@ const BreadcrumbEvent = ({title, subtitle} : any) => {
 					<div className="row">
 						<div className="page-heading">
 							<h1>{title}</h1>
-							<h3 className="text-white">{subtitle}</h3>
+							<ul className="breadcrumb-items">
+								{/* <li>
+									<Link href="/">Home</Link>
+								</li> */}
+								<p style={{ color: "white", fontSize: "23px", fontWeight: "bold", textAlign: "center",marginTop:"22px"}}>Have questions or need assistance? Contact us—we’d love to hear from you!</p>
+								{/* <li className="style-2">{subtitle}</li> */}
+							</ul>
 							<div className="breadcrumb-image">
-  <div className="image" style={{display:"flex", justifyContent:"center"}}>
-    <img src="assets/img/about/nursing.jpg" alt="Nursing " style={{width:"90%",height:"70%"}}/>
-    {/* <img src="assets/img/about/nursing1.jpg" alt="Nursing 2" style={{width:"20vw",height:"35vh"}}/>
-    <img src="assets/img/about/nursing2.jpg" alt="Nursing 3" style={{width:"20vw",height:"35vh"}}/>
-    <img src="assets/img/about/nursing3.jpg" alt="Nursing 4" style={{width:"20vw",height:"35vh"}}/> */}
-  </div>
-</div>
-
+								<img src="assets/img/breadcrumb/new1.jpg" alt="img" style={{ width: "900px", height: "400px" }} />
+							</div>
 						</div>
 					</div>
 				</div>
