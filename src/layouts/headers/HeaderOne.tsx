@@ -6,7 +6,7 @@ import NiceSelect from '@/ui/NiceSelect';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import NavMenu from './NavMenu';
-import MarqueeOne from '@/common/MarqueeOne';
+// import MarqueeOne from '@/common/MarqueeOne';
 import Search from '@/common/Search';
 import OffCanvas from '@/common/OffCanvas';
 
@@ -22,7 +22,7 @@ const HeaderOne = () => {
 
   return (
     <>
-    <MarqueeOne />
+    {/* <MarqueeOne /> */}
      <header id="header-sticky" className={`header-1 ${sticky ? "sticky" : ""}`}>
             <div className="container-fluid">
                 <div className="mega-menu-wrapper">
@@ -30,15 +30,15 @@ const HeaderOne = () => {
                         <div className="header-left">
                             <div className="logo">
                                 <Link href="/" className="header-logo">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                                    <img src="assets/img/logo/final-logo1.png" alt="logo-img" style={{ height: "80px", paddingLeft: "20px" }} />
                                 </Link>
                             </div>
                             <div className="category-oneadjust">
-                               <div className="dot">
+                               {/* <div className="dot">
                                     <img src="assets/img/logo/dot.png" alt="img" />
-                               </div> 
+                               </div>  */}
 
-                                <NiceSelect
+                                {/* <NiceSelect
                                   className="category"
                                   options={[
                                     { value: "01", text: "Category" },
@@ -50,7 +50,7 @@ const HeaderOne = () => {
                                   defaultCurrent={0}
                                   onChange={selectHandler}
                                   name=""
-                                  placeholder="" />
+                                  placeholder="" /> */}
 
                             </div>
                         </div>
@@ -67,10 +67,10 @@ const HeaderOne = () => {
                                 onClick={ () => setOpen(!open)}
                                 className="d-flex align-items-center search-toggle"><i className="fas fa-search"></i></button>
                             </div>
-                            <div className="header-button">
+                            {/* <div className="header-button">
                                 <Link href="/sign-in" className="theme-btn style-2"><i className="far fa-user"></i> Admin</Link>
                                 <Link href="/register" className="theme-btn yellow-btn">Enroll Now</Link>
-                            </div>
+                            </div> */}
                             <div className="header__hamburger d-xl-none my-auto">
                                 <div className="sidebar__toggle">
                                     <div className="header-bar" onClick={ () => setOpenCanvas(!openCanvas)}>

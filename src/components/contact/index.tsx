@@ -6,6 +6,7 @@ import React from "react";
 import ContactArea from "./ContactArea";
 import MapArea from "./MapArea";
 import ContactForm from "./ContactForm";
+import HeaderThree from "@/layouts/headers/HeaderThree";
 
 const Contact = () => {
 	return (
@@ -15,7 +16,7 @@ const Contact = () => {
 			<ContactArea />
       <MapArea />
       <ContactForm />
-			<MarqueeOne style_2={true} />
+			{/* <MarqueeOne style_2={true} /> */}
 			<FooterOne />
 		</>
 	);
