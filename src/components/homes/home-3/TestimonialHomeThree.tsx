@@ -200,6 +200,7 @@ const TestimonialHomeThree = () => {
                                 </p>
                                 <div className="icon">
                                     <i className="flaticon-double-quotes"></i>
+                                    
                                 </div>
                             </div>
                         </SwiperSlide>
