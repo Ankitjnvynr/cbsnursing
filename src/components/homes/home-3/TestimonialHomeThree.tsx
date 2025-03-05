@@ -85,11 +85,11 @@ const TestimonialHomeThree = () => {
                 <div className="container custom-container">
                     <div className="counter-wrapper-2 bg-cover" style={{background: `url(/assets/img/counter-bg.jpg)`}}>
                     <div className='flex justify-center'>
-                    <div className='medical-resources-heading  ' style={boxStyle}>
+                    <div className='medical-resources-heading'>
                         <h2 className='text-white '>Medical Resources</h2>
                     </div>
-                    <div className='medical-resources ' style={containerStyle}>
-                        <div className="counter-items wow fadeInUp mb-4 center " data-wow-delay=".2s" style={boxStyle}>
+                    <div className='medical-resources'>
+                        <div className="counter-items wow fadeInUp mb-4 center " data-wow-delay=".2s">
                             <div className="icon ">
                                 {/* <i className="flaticon-success"></i> */}
                                 <FaHospitalUser />
@@ -105,7 +105,7 @@ const TestimonialHomeThree = () => {
                             </p>
                             </div>
                         </div>
-                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".4s" style={boxStyle}>
+                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".4s">
                             <div className="icon">
                                 {/* <i className="flaticon-medal"></i> */}
                                 <FaUserDoctor />
@@ -118,7 +118,7 @@ const TestimonialHomeThree = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".6s" style={boxStyle}>
+                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".6s">
                             <div className="icon">
                                 {/* <i className="flaticon-satisfaction"></i> */}
                                 <FaBookMedical />
