@@ -86,7 +86,7 @@ const menu_data:DataType[] = [
 	{
 		id: 5,
 		title: "About",
-		link: "/",
+		link: "/about",
     icon: "fas fa-user-alt",
 		has_dropdown: false,
 		has_dropdown_inner: true,
@@ -115,7 +115,7 @@ const menu_data:DataType[] = [
 	{
 		id: 6,
 		title: "Contact",
-		link: "/",
+		link: "/contact",
     icon: "fas fa-phone-rotary",
 		has_dropdown: false,
 	},
