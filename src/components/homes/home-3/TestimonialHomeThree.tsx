@@ -85,11 +85,29 @@ const TestimonialHomeThree = () => {
                 <div className="container custom-container">
                     <div className="counter-wrapper-2 bg-cover" style={{background: `url(/assets/img/counter-bg.jpg)`}}>
                     <div className='flex justify-center'>
-                    <div className='medical-resources-heading' style={boxStyle}>
+                    <div className='medical-resources-heading' style={{ flex: isMobile ? "1 1 100%" : "1 1 calc(33.33% - 20px)",// Change layout for mobile
+          minWidth: "300px",
+          textAlign: "center",
+          padding: "20px",
+          color: "white",
+          borderRadius: "10px",}}>
                         <h2 className='text-white '>Medical Resources</h2>
                     </div>
-                    <div className='medical-resources' style={containerStyle}>
-                        <div className="counter-items wow fadeInUp mb-4 center " data-wow-delay=".2s" style={boxStyle}>
+                    <div className='medical-resources'  style = {{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "20px",
+          maxWidth: "1200px",
+          margin: "0 auto",
+        //   flexDirection:isMobile?"column":"row",
+        }}>
+                        <div className="counter-items wow fadeInUp mb-4 center " data-wow-delay=".2s" style={{ flex: isMobile ? "1 1 100%" : "1 1 calc(33.33% - 20px)",// Change layout for mobile
+          minWidth: "300px",
+          textAlign: "center",
+          padding: "20px",
+          color: "white",
+          borderRadius: "10px",}}>
                             <div className="icon ">
                                 {/* <i className="flaticon-success"></i> */}
                                 <FaHospitalUser />
@@ -105,7 +123,12 @@ const TestimonialHomeThree = () => {
                             </p>
                             </div>
                         </div>
-                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".4s" style={boxStyle}>
+                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".4s" style={{ flex: isMobile ? "1 1 100%" : "1 1 calc(33.33% - 20px)",// Change layout for mobile
+          minWidth: "300px",
+          textAlign: "center",
+          padding: "20px",
+          color: "white",
+          borderRadius: "10px",}}>
                             <div className="icon">
                                 {/* <i className="flaticon-medal"></i> */}
                                 <FaUserDoctor />
@@ -118,7 +141,12 @@ const TestimonialHomeThree = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".6s" style={boxStyle}>
+                        <div className="counter-items wow fadeInUp mb-4 center  w-full md:w-1/3" data-wow-delay=".6s" style={{ flex: isMobile ? "1 1 100%" : "1 1 calc(33.33% - 20px)",// Change layout for mobile
+          minWidth: "300px",
+          textAlign: "center",
+          padding: "20px",
+          color: "white",
+          borderRadius: "10px",}}>
                             <div className="icon">
                                 {/* <i className="flaticon-satisfaction"></i> */}
                                 <FaBookMedical />
