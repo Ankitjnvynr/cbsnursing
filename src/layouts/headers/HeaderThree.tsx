@@ -21,10 +21,10 @@ const HeaderThree = () => {
                     <div className="mega-menu-wrapper">
                         <div className="header-main">
                             <Link href="/" className="header-logo">
-                                <img width={80}   src="assets/img/logo/logo-red.png" alt="logocbscollegeOfNursing" />
+                                <img width={80}   src="assets/img/logo/final-logo1.png" alt="logocbscollegeOfNursing" />
                             </Link>
                             <Link href="/" className="header-logo-2">
-                                <img width={80}   src="assets/img/logo/logo-red.png" alt="logocbscollegeOfNursing" />
+                                <img width={80}   src="assets/img/logo/final-logo1.png" alt="logocbscollegeOfNursing" />
                             </Link>
                             <div className="header-left">
                                 <div className="mean__menu-wrapper">

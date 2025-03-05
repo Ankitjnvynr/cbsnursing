@@ -12,7 +12,7 @@ const Search = ({setOpen, open} : any) => {
                         <div className="search-bar">
                             <div className="contact-form-box contact-search-form-box">
                                 <form onSubmit={e => e.preventDefault()}>
-                                    <input type="email" placeholder="Search here..." />
+                                    <input type="text" placeholder="Search here..." />
                                     <button type="submit"><i className="far fa-search"></i></button>
                                 </form>
                                 <p>Type above and press Enter to search. Press Close to cancel.</p>

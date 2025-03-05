@@ -21,12 +21,12 @@ const FooterThree = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        <img width={200} src="assets/img/logo/logo-red.png" alt="cbs-collegeOfNursing-logo" />
+                                        <img width={200} src="assets/img/logo/final-logo1.png" alt="cbs-collegeOfNursing-logo" />
                                     </Link>
                                 </div>
                                 <div className="footer-content">
                                     <p>
-                                    Empowering Minds, Shaping Futures – CBS Group of Institution.
+                                    Empowering Minds, Shaping Futures – CBS College of Nursing.
                                     </p>
                                     <div className="social-icon">
                                         <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -63,7 +63,7 @@ const FooterThree = () => {
                                         <li>
                                             <div className="icon" style={{display:"flex",alignItems:"center",gap:"8px"}}>
                                             <i className="far fa-envelope"></i>                                    
-                                            <a href="mailto:ceo@cbscolleges.com" className="link">ceo@cbscolleges.com</a>
+                                            <a href="mailto:ceo@cbscolleges.com" className="link">contact@cbs-nursing.com</a>
                                           </div>
                                         </li>
                                         <li>
@@ -105,7 +105,7 @@ const FooterThree = () => {
                                             Subscribe
                                         </button>
                                     </div> */}
-                                    <p>Sat: Closed</p>
+                                    <p>Sat: 09:00am-05:00pm</p>
                                     <p>Sun: Closed</p>
                                 </div>
                                 

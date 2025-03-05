@@ -16,7 +16,7 @@ const Contact = () => {
 			<ContactArea />
       <MapArea />
       <ContactForm />
-			<MarqueeOne style_2={true} />
+			{/* <MarqueeOne style_2={true} /> */}
 			<FooterOne />
 		</>
 	);
