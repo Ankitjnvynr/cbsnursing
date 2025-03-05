@@ -6,13 +6,13 @@ import React from "react";
 import ContactArea from "./ContactArea";
 import MapArea from "./MapArea";
 import ContactForm from "./ContactForm";
-import HeaderThree from "@/layouts/headers/HeaderThree";
+import FooterThree from "@/layouts/footers/FooterThree";
 
 const Contact = () => {
 	return (
 		<>
 			<HeaderOne />
-			<BreadcrumbEvent title="Contact" subtitle="Contact" />
+			<BreadcrumbEvent title="Contact Us" />
 			<ContactArea />
       <MapArea />
       <ContactForm />
