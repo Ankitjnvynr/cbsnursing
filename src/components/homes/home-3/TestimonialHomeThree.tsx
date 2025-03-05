@@ -85,10 +85,10 @@ const TestimonialHomeThree = () => {
                 <div className="container custom-container">
                     <div className="counter-wrapper-2 bg-cover" style={{background: `url(/assets/img/counter-bg.jpg)`}}>
                     <div className='flex justify-center'>
-                    <div className='medical-resources-heading  ' style={boxStyle}>
+                    <div className='medical-resources-heading' style={boxStyle}>
                         <h2 className='text-white '>Medical Resources</h2>
                     </div>
-                    <div className='medical-resources ' style={containerStyle}>
+                    <div className='medical-resources' style={containerStyle}>
                         <div className="counter-items wow fadeInUp mb-4 center " data-wow-delay=".2s" style={boxStyle}>
                             <div className="icon ">
                                 {/* <i className="flaticon-success"></i> */}
