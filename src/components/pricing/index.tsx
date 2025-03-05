@@ -12,6 +12,7 @@ const Pricing = () => {
 			<BreadcrumbEvent title="Pricing" subtitle="Pricing" />
 			<PricingArea />       
 			<MarqueeOne style_2={true} />
+			
 			<FooterOne />
 		</>
 	);
