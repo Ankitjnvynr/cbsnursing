@@ -29,7 +29,7 @@ const HeroHomeThree = () => {
                     }}
                     modules={[Pagination, Navigation, EffectFade, Autoplay]}
                     className="swiper hero-slider"> 
-                    <SwiperSlide className="swiper-slide ">
+                    {/* <SwiperSlide className="swiper-slide ">
                         <div className="slider-bg bg-cover  " style={{background: `url(/assets/img/hero/hero-3.jpg)`,
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
@@ -61,7 +61,7 @@ const HeroHomeThree = () => {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <SwiperSlide className="swiper-slide">
                         <div className="slider-bg bg-cover " style={{background: `url(/assets/img/hero/hero-111.jpg)`,
                                     backgroundRepeat: 'no-repeat',
