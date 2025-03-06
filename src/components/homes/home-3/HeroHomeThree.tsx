@@ -64,9 +64,9 @@ const HeroHomeThree = () => {
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
                         <div className="slider-bg bg-cover " style={{background: `url(/assets/img/hero/hero-111.jpg)`,
-                                        backgroundRepeat: 'no-repeat',
-                                        backgroundSize: 'cover',
-                                        backgroundPosition: 'center'
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center'
                             
                         }}>
                             <div className="overlay-bg bg-cover" style={{background: `url(/assets/img/hero/ovelay-bg.png)`,
